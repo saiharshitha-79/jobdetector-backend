@@ -1,0 +1,10 @@
+com\jobdetector\controller\AuthController.class
+com\jobdetector\repository\UserRepository.class
+com\jobdetector\entity\User.class
+com\jobdetector\config\DataInitializer.class
+com\jobdetector\JobDetectorApplication.class
+com\jobdetector\config\CorsConfig.class
+com\jobdetector\repository\JobRepository.class
+com\jobdetector\controller\JobController.class
+com\jobdetector\service\JobAnalysisService.class
+com\jobdetector\entity\Job.class
