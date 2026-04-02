@@ -15,7 +15,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    @Column(nullable = false)
+    @Column(columnDefinition = "varchar(255) default 'Unknown'")
     private String name;
     
     @Column(nullable = false, unique = true)
