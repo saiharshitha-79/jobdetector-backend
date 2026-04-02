@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:3001"})
+@CrossOrigin(origins = {"https://jobdetector-backend.onrender.com", "http://localhost:3001"})
 public class AuthController {
     
     @Autowired
